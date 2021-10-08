@@ -14,9 +14,20 @@ body {
     text-align: center;
 }
 
+.h_38 {
+    height: 38.4px;
+}
+
 /* DISTANCES */
+.mb_20 {
+    margin-bottom: 20px;
+}
 .my_10 {
     margin: 10px auto;
+}
+
+.p_10 {
+    padding: 10px;
 }
 
 /* COLORS */

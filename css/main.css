@@ -2,3 +2,30 @@
 * {
     font-family: sans-serif;
 }
+
+body {
+    font-size: 14px;
+}
+
+/* UTILITIES */
+.box {
+    border: 1px solid white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* DISTANCES */
+.my_10 {
+    margin: 10px auto;
+}
+
+/* COLORS */
+.dodgerblue {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.lime {
+    background-color: lime;
+    color: black;
+}

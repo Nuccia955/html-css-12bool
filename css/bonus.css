@@ -1,7 +1,91 @@
 /* UTILITIES */
+body {
+    font-family: sans-serif;
+}
+
 .b_container {
     max-width: 300px;
     margin: 0 auto;
+    transform: rotate(70deg);
+}
+
+i {
+    font-size: 30px;
+}
+
+.notes_1 {
+    position: absolute;
+    top:40%;
+    left:20%;
+    transform: rotate(-70deg);
+    opacity: 0;
+}
+
+.notes_2 {
+    position: absolute;
+    top:30%;
+    left:15%;
+    transform: rotate(-70deg);
+    opacity: 0;
+}
+
+.b_container:hover {
+    animation: rotation 0.4s infinite linear;
+}
+
+.b_container:hover .notes_1 {
+    animation: round 0.8s infinite linear;
+    opacity: 1;
+}
+
+.b_container:hover .notes_2 {
+    animation: round 0.8s infinite linear;
+    opacity: 1;
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(-70deg)
+    }
+
+    25% {
+        transform: rotate(-80deg)
+    }
+
+    50% {
+        transform: rotate(-70deg)
+    }
+
+    75% {
+        transform: rotate(-60deg)
+    }
+
+    100% {transform: translate(-70deg)
+    }
+}
+
+@keyframes rotation {     
+    0% {
+        transform: rotate(70deg)
+    }
+
+    50% {
+        transform: rotate(74deg)
+    }
+
+    100% {
+        transform: rotate(70deg)
+    }
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 60px;
+    font-style: italic;
+    color: #9c1a1a;
+    text-shadow: 2px -1px 5px black
 }
 
 .box {

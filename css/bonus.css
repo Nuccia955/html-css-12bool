@@ -1,0 +1,74 @@
+/* UTILITIES */
+.b_container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 7.5px;
+    border: 1px solid black;
+}
+
+.bordy_none {
+    border-top: none;
+    border-bottom: none;
+}
+
+.borderl_none {
+    border-left: none;
+}
+
+.borderb_none {
+    border-bottom: none;
+}
+
+.relative {
+    position: relative;
+}
+
+/* COLORS */
+.black {
+    background-color: black;
+}
+
+.key_gray {
+    background-color: #b7bec8;
+}
+
+.gold {
+    background-color: #f6dd78
+}
+
+.brown {
+    background-color: #76594b;
+}
+
+.cassa_gray {
+    background-color: #a6aab3;
+}
+
+.ponte {
+    background-color: #717984; 
+}
+
+.ponte_dark {
+    background-color: #3b3c40; 
+}
+
+/* DISTANCES */
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+img {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(270deg);
+}

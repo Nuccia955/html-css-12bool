@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-/* UTILITIES */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* GRID LAYOUT */
 .row {
     display: flex;

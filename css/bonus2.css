@@ -1,0 +1,70 @@
+/* UTILITIES */
+body {
+    height: 100vh;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #ff8125 100%);
+    background-size: cover;
+}
+
+.container_1440 {
+    max-width: 1440px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    height: 10px;
+    border: 1px solid black;
+}
+
+.box_border_none {
+    height: 15px;
+}
+
+.box_border_b {
+    border-bottom: 7.5px solid black;
+    height: 15px;
+}
+
+.box_border_t {
+    border-top: 7.5px solid black;
+    height: 15px;
+}
+
+.box_border_t_orange {
+    border-top: 7.5px solid orange;
+    border-bottom: 7.5px solid rgb(255, 94, 0) ;
+    height: 15px;
+
+}
+
+.border_t_white {
+    border-top: 7.5px solid white ;
+
+}
+
+/* COLORS */
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.darkorange {
+    background-color: darkorange;
+}
+
+.spritzorange {
+    background-color: rgb(255, 94, 0);
+}
+
+.yellow {
+    background-color: yellow;
+}
